@@ -141,7 +141,7 @@ public struct PageIndicator: View {
 	}
 
 	public var body: some View {
-		#if canImport(UIKit)
+		#if canImport(UIKit) && os(iOS)
 		PlatformPageIndicator(
 			selection: $selection,
 			total: total,

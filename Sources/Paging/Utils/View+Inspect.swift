@@ -107,7 +107,7 @@ extension Image {
 	}
 }
 
-#if canImport(UIKit)
+#if canImport(UIKit) && os(iOS)
 extension Image {
 	func _systemImage() -> UIImage? {
 		if let symbol = _systemName() {

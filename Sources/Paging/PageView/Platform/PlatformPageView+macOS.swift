@@ -1,4 +1,4 @@
-#if canImport(AppKit)
+#if canImport(AppKit) && os(macOS)
 
 import SwiftUI
 
