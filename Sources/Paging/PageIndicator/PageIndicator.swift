@@ -158,9 +158,11 @@ public struct PageIndicator: View {
 	}
 }
 
+#if DEBUG
 @available(macOS, unavailable)
 struct PageIndicator_Previews: PreviewProvider {
 	static var previews: some View {
 		PageIndicatorExample()
 	}
 }
+#endif

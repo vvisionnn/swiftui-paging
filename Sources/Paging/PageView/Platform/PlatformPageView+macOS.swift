@@ -254,6 +254,7 @@ extension PlatformPageViewConfiguration.Transition {
 	}
 }
 
+#if DEBUG
 struct PlatformPageView_Mac_Previews: PreviewProvider {
 	static var previews: some View {
 		PageViewBasicExample()
@@ -261,4 +262,5 @@ struct PlatformPageView_Mac_Previews: PreviewProvider {
 	}
 }
 
+#endif
 #endif

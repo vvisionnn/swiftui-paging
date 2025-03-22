@@ -32,9 +32,11 @@ extension PageViewStyle where Self == ScrollPageViewStyle {
 	}
 }
 
+#if DEBUG
 struct ScrollablePageViewStyle_Previews: PreviewProvider {
 	public static var previews: some View {
 		PageViewBasicExample()
 			.pageViewStyle(.scroll)
 	}
 }
+#endif

@@ -22,6 +22,7 @@ extension PageViewStyle where Self == PlainPageViewStyle {
 	}
 }
 
+#if DEBUG
 struct PlainPageViewStyle_Previews: PreviewProvider {
 	public static var previews: some View {
 		PageViewBasicExample()
@@ -29,3 +30,4 @@ struct PlainPageViewStyle_Previews: PreviewProvider {
 			.pageViewOrientation(.vertical)
 	}
 }
+#endif

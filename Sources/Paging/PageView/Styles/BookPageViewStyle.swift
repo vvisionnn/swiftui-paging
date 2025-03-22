@@ -34,6 +34,7 @@ extension PageViewStyle where Self == BookPageViewStyle {
 	}
 }
 
+#if DEBUG
 @available(iOS 16.0, *)
 @available(macOS, unavailable)
 struct BookPageViewStyle_Previews: PreviewProvider {
@@ -42,3 +43,4 @@ struct BookPageViewStyle_Previews: PreviewProvider {
 			.pageViewStyle(.book)
 	}
 }
+#endif

@@ -109,10 +109,11 @@ extension PageIndicator.BackgroundStyle {
 	}
 }
 
+#if DEBUG
 struct PlatformPageIndicator_Previews: PreviewProvider {
 	static var previews: some View {
 		PageIndicatorExample()
 	}
 }
-
+#endif
 #endif

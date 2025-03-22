@@ -30,6 +30,7 @@ extension PageViewStyle where Self == HistoryStackPageViewStyle {
 	}
 }
 
+#if DEBUG
 @available(iOS, unavailable)
 @available(macOS 13.0, *)
 struct HistoryStackPageViewStyle_Previews: PreviewProvider {
@@ -38,3 +39,4 @@ struct HistoryStackPageViewStyle_Previews: PreviewProvider {
 			.pageViewStyle(.historyStack)
 	}
 }
+#endif

@@ -77,8 +77,10 @@ public protocol PageViewStyle: DynamicProperty {
 	@ViewBuilder func makeBody(configuration: Self.Configuration) -> Self.Body
 }
 
+#if DEBUG
 struct PageViewStyle_Previews: PreviewProvider {
 	static var previews: some View {
 		PageViewBasicExample()
 	}
 }
+#endif

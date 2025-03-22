@@ -217,9 +217,11 @@ extension PageViewStyle where Self == CardDeckPageViewStyle {
 	}
 }
 
+#if DEBUG
 @available(macOS, unavailable)
 struct DeckPageViewStyle_Previews: PreviewProvider {
 	public static var previews: some View {
 		CardDeckExample()
 	}
 }
+#endif

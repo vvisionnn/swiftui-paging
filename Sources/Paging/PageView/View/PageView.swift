@@ -342,8 +342,10 @@ extension PageView {
 	}
 }
 
+#if DEBUG
 struct PageView_Previews: PreviewProvider {
 	static var previews: some View {
 		PageViewBasicExample()
 	}
 }
+#endif
